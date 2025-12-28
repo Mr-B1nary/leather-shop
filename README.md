@@ -1,2 +1,2 @@
 # leather-shop
-create just with html,css
+Create just with html,css
