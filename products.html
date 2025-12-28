@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>محصولات چرم | فروشگاه چرم لوکس</title>
+    <meta
+      name="description"
+      content="تمامی محصولات چرمی دست‌دوز با کیفیت عالی"
+    />
+    <link rel="stylesheet" href="css/product-detail.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/products.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="images/logos/favicon.ico" />
+  </head>
+  <body>
+    <!-- هدر (همانند index.html) -->
+    <header class="main-header">
+      <!-- کد هدر همانند index.html -->
+    </header>
+
+    <!-- بنر صفحه محصولات -->
+    <section class="page-banner">
+      <div class="container">
+        <h1>محصولات چرمی</h1>
+        <p>انتخاب از میان بهترین محصولات چرم طبیعی</p>
+      </div>
+    </section>
+
+    <!-- فیلترها و مرتب‌سازی -->
+    <section class="products-filter">
+      <div class="container">
+        <div class="filter-container">
+          <div class="filter-section">
+            <h3><i class="fas fa-filter"></i> فیلتر محصولات</h3>
+
+            <!-- دسته‌بندی -->
+            <div class="filter-group">
+              <h4>دسته‌بندی</h4>
+              <div class="filter-options">
+                <label class="filter-checkbox">
+                  <input type="checkbox" checked />
+                  <span class="checkmark"></span>
+                  کیف‌های اداری
+                </label>
+                <label class="filter-checkbox">
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                  کیف‌های زنانه
+                </label>
+                <label class="filter-checkbox">
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                  کفش چرم
+                </label>
+                <label class="filter-checkbox">
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                  کمربند
+                </label>
+                <label class="filter-checkbox">
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                  اکسسوری
+                </label>
+              </div>
+            </div>
+
+            <!-- قیمت -->
+            <div class="filter-group">
+              <h4>محدوده قیمت</h4>
+              <div class="price-range">
+                <input
+                  type="range"
+                  min="0"
+                  max="10000000"
+                  value="5000000"
+                  class="slider"
+                  id="priceRange"
+                />
+                <div class="price-values">
+                  <span>۰ تومان</span>
+                  <span id="currentPrice">۵,۰۰۰,۰۰۰ تومان</span>
+                  <span>۱۰,۰۰۰,۰۰۰ تومان</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- رنگ -->
+            <div class="filter-group">
+              <h4>رنگ</h4>
+              <div class="color-options">
+                <span class="color-dot brown" title="قهوه‌ای"></span>
+                <span class="color-dot black" title="مشکی"></span>
+                <span class="color-dot tan" title="بژ"></span>
+                <span class="color-dot navy" title="سرمه‌ای"></span>
+                <span class="color-dot burgundy" title="زرشکی"></span>
+              </div>
+            </div>
+
+            <button class="btn btn-primary filter-btn">اعمال فیلتر</button>
+            <button class="btn btn-outline reset-btn">پاک کردن فیلترها</button>
+          </div>
+
+          <!-- بخش محصولات -->
+          <div class="products-section">
+            <div class="products-header">
+              <div class="sort-options">
+                <label>مرتب‌سازی بر اساس:</label>
+                <select>
+                  <option>پرفروش‌ترین</option>
+                  <option>جدیدترین</option>
+                  <option>ارزان‌ترین</option>
+                  <option>گران‌ترین</option>
+                  <option>بیشترین تخفیف</option>
+                </select>
+              </div>
+              <div class="products-count">
+                <span>۱۲ محصول یافت شد</span>
+              </div>
+            </div>
+
+            <!-- لیست محصولات -->
+            <div class="products-list">
+              <!-- محصول ۱ -->
+              <div class="product-item">
+                <div class="product-item-img">
+                  <img
+                    src="images/products/bag1.jpg"
+                    alt="کیف چرمی مردانه مدل کلاسیک"
+                  />
+                  <div class="product-badge">پرفروش</div>
+                  <div class="product-actions">
+                    <button class="action-btn">
+                      <i class="far fa-heart"></i>
+                    </button>
+                    <button class="action-btn">
+                      <i class="fas fa-eye"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-item-info">
+                  <h3>کیف چرمی مردانه کلاسیک</h3>
+                  <p class="product-category">کیف‌های اداری</p>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(۴۲ نظر)</span>
+                  </div>
+                  <div class="product-price">
+                    <span class="current-price">۲,۸۹۰,۰۰۰ تومان</span>
+                    <span class="old-price">۳,۲۰۰,۰۰۰ تومان</span>
+                  </div>
+                  <a href="product-detail.html" class="btn btn-primary"
+                    >مشاهده جزئیات</a
+                  >
+                </div>
+              </div>
+
+              <!-- محصول ۲ -->
+              <div class="product-item">
+                <div class="product-item-img">
+                  <img
+                    src="images/products/bag2.jpg"
+                    alt="کیف دستی زنانه مدل مدرن"
+                  />
+                  <div class="product-badge">جدید</div>
+                  <div class="product-actions">
+                    <button class="action-btn">
+                      <i class="far fa-heart"></i>
+                    </button>
+                    <button class="action-btn">
+                      <i class="fas fa-eye"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-item-info">
+                  <h3>کیف دستی زنانه مدرن</h3>
+                  <p class="product-category">کیف‌های زنانه</p>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(۱۸ نظر)</span>
+                  </div>
+                  <div class="product-price">
+                    <span class="current-price">۳,۵۰۰,۰۰۰ تومان</span>
+                  </div>
+                  <a href="product-detail.html" class="btn btn-primary"
+                    >مشاهده جزئیات</a
+                  >
+                </div>
+              </div>
+
+              <!-- ۱۰ محصول دیگر... -->
+              <!-- برای صرفه‌جویی در فضا، فقط ساختار نشان داده شد -->
+            </div>
+
+            <!-- صفحه‌بندی -->
+            <div class="pagination">
+              <a href="#" class="page-item disabled"
+                ><i class="fas fa-chevron-right"></i
+              ></a>
+              <a href="#" class="page-item active">۱</a>
+              <a href="#" class="page-item">۲</a>
+              <a href="#" class="page-item">۳</a>
+              <a href="#" class="page-item">۴</a>
+              <a href="#" class="page-item"
+                ><i class="fas fa-chevron-left"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- فوتر (همانند index.html) -->
+    <footer class="main-footer">
+      <!-- کد فوتر همانند index.html -->
+    </footer>
+
+    <script>
+      // کنترل محدوده قیمت
+      const priceRange = document.getElementById("priceRange");
+      const currentPrice = document.getElementById("currentPrice");
+
+      priceRange.addEventListener("input", function () {
+        const price = parseInt(this.value).toLocaleString("fa-IR");
+        currentPrice.textContent = price + " تومان";
+      });
+    </script>
+  </body>
+</html>
