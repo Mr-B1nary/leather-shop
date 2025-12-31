@@ -1,4 +1,4 @@
 # leather-shop
 Create just with html,css
 
-https://mr-n3xus.github.io/leather-shop/
+<a href="https://mr-n3xus.github.io/leather-shop/">Click here to visit</a>
