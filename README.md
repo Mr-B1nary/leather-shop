@@ -71,7 +71,7 @@ leather-shop/<br>
 </p>
 <hr>
 <h2> 🚀 How to Run Locally</h2>
-<p align="left">
+<p align="center">
   
 ```bash
 # Clone the repository
