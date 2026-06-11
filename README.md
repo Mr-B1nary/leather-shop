@@ -71,7 +71,8 @@ leather-shop/<br>
 </p>
 <hr>
 <h2> 🚀 How to Run Locally</h2>
-
+<p align="left">
+  
 ```bash
 # Clone the repository
 git clone https://github.com/Mr-B1nary/leather-shop.git
@@ -81,3 +82,5 @@ cd leather-shop
 
 # Open the website
 open index.html
+```
+</p>
